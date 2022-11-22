@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('../fonts/icons.ttf?tf6b72') format('truetype'),
+    url('../fonts/icons.woff?tf6b72') format('woff'),
+    url('../fonts/icons.svg?tf6b72#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ico_next:before {
+  content: "\e90e";
+  color: #000;
+  opacity: 0.5;
+  font-size: 35px;
+}
+.icon-ico_early:before {
+  content: "\e90f";
+   color: #000;
+  opacity: 0.5;
+  font-size: 35px;
+}
+.icon-ico_phone:before {
+  content: "\e903";
+  color: #fba518;
+  font-size: 33px;
+
+}
+.icon-ico_header_f:before {
+  content: "\e900";
+  color: #fff;
+  font-size: 16px;
+
+}
+.icon-ico_header_i:before {
+  content: "\e901";
+  color: #fff;
+  font-size: 16px;
+
+}
+.icon-ico_header_t:before {
+  content: "\e902";
+  color: #fff;
+  font-size: 16px;
+
+}
+.icon-ico_blue_01:before {
+  content: "\e904";
+  color: #0e77af;
+}
+.icon-ico_blue_02:before {
+  content: "\e905";
+  color: #0e77af;
+}
+.icon-ico_blue_03:before {
+  content: "\e906";
+  color: #0e77af;
+}
+.icon-ico_f:before {
+  content: "\e907";
+  color: #fff;
+  margin-right: 33px;
+  font-size: 40px;
+}
+.icon-ico_footer_01:before {
+  content: "\e908";
+  color: #fff;
+  margin-left: 16px;
+  margin-right: 32px;
+}
+.icon-ico_footer_02:before {
+  content: "\e909";
+  color: #fff;
+  margin-left: 16px;
+  margin-right: 32px;
+}
+.icon-ico_footer_03:before {
+  content: "\e90a";
+  color: #fff;
+  margin-left: 16px;
+  margin-right: 34px;
+}
+.icon-ico_i:before {
+  content: "\e90b";
+  color: #fff;
+  font-size: 40px;
+}
+.icon-ico_phone1:before {
+  content: "\e90c";
+  color: #fba518;
+}
+.icon-ico_t:before {
+  content: "\e90d";
+  color: #fff;
+  margin-right: 32px;
+  font-size: 40px;
+}
+
+
+.icon-ico:before {
+  content: "\e910";
+  font-size: 18px;
+  color: #000;
+}
+.icon-ico_:before {
+  content: "\e911";
+   font-size: 18px;
+  color: #000;
+}
+.icon-menu:before {
+  content: "\e9bd";
+  font-size: 30px;
+  color: #7b7b7b;
+}
+.icon-menu3:before {
+  content: "\e9bf";
+  font-size: 40px;
+  color: #7b7b7b;
+}
+
+
